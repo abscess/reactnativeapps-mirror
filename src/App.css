@@ -1,38 +1,47 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media screen and (max-width: 600px) {
+  .body {
+    font-size: 8px;
   }
 }
 
-.App-header {
-  background-color: #282c34;
+.body {
   min-height: 100vh;
+  width: 100%;
+
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: column;
+
+  background-color: cornflowerblue;
+
+  padding-bottom: 10em;
+  padding-top: 10em;
 }
 
-.App-link {
-  color: #61dafb;
+.MuiLink-root {
+  color: #2668ba;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.original {
+  font-size: 2em;
+}
+
+.icon-link {
+  padding-top: 1em;
+  font-size: 1.5em;
+}
+
+.list {
+  width: 60%;
+  background-color: #FFFFFF;
+  border-radius: 1em;
+  padding-right: 5em;
+  padding-left: 5em;
+  padding-bottom: 2.5em;
+  padding-top: 2.5em;
+}
+
+.image img[title="React Native Apps"] {
+  width: 100%
 }
